@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "3FB3854D-2D77-414F-8117-D695CC22CC2C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C2D80536-0313-45EF-AA3F-FFCB7BCED791"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VIP-Architechture/Candy-module/views/CandyView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "CandyView"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "C2D80536-0313-45EF-AA3F-FFCB7BCED791 - d6e944ff5dacad63"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VIP_Architechture.CandyView.(titleLabel in _6D5D83AFB4D1695A0D0733C5FF869A76).getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "VIP-Architechture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/researchObj/VIP-Architechture/VIP-Architechture/Candy-module/views/CandyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "C2D80536-0313-45EF-AA3F-FFCB7BCED791 - d6e944ff5dacad63"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VIP_Architechture.CandyView.(titleLabel in _6D5D83AFB4D1695A0D0733C5FF869A76).setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "VIP-Architechture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/researchObj/VIP-Architechture/VIP-Architechture/Candy-module/views/CandyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "C2D80536-0313-45EF-AA3F-FFCB7BCED791 - 1f5df544e0d7be6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VIP_Architechture.CandyView.(titleLabel in _6D5D83AFB4D1695A0D0733C5FF869A76).modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "VIP-Architechture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/researchObj/VIP-Architechture/VIP-Architechture/Candy-module/views/CandyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "67">
+               </Location>
+               <Location
+                  uuid = "C2D80536-0313-45EF-AA3F-FFCB7BCED791 - 9a1c9e33faffd9ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VIP_Architechture.CandyView.(titleLabel in _6D5D83AFB4D1695A0D0733C5FF869A76).modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "VIP-Architechture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/researchObj/VIP-Architechture/VIP-Architechture/Candy-module/views/CandyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "C2D80536-0313-45EF-AA3F-FFCB7BCED791 - 34a981f44566d4aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VIP_Architechture.CandyView.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; VIP_Architechture.CandyView"
+                  moduleName = "VIP-Architechture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/researchObj/VIP-Architechture/VIP-Architechture/Candy-module/views/CandyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "646">
+               </Location>
+               <Location
+                  uuid = "C2D80536-0313-45EF-AA3F-FFCB7BCED791 - b29d945d8946b780"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VIP_Architechture.CandyView.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;VIP_Architechture.CandyView&gt;"
+                  moduleName = "VIP-Architechture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/researchObj/VIP-Architechture/VIP-Architechture/Candy-module/views/CandyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "572">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9EB712B2-3E68-436F-8568-0AB815896209"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VIP-Architechture/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "scene(_:willConnectTo:options:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B8D249E-9F69-40ED-8E70-3D7301902E8B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VIP-Architechture/Candy-module/builder/CandyBuilder.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "buildModule(arroundView:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BC7B3C0E-ECC9-4ACD-977F-9294E2DAACEC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VIP-Architechture/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "application(_:didFinishLaunchingWithOptions:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C993EE13-284C-46E5-87A6-74A07B275C56"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VIP-Architechture/Candy-module/views/CandyView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "CandyView"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "C993EE13-284C-46E5-87A6-74A07B275C56 - ecda4c9c90cb2e79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VIP_Architechture.CandyView.(priceLabel in _6D5D83AFB4D1695A0D0733C5FF869A76).getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "VIP-Architechture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/researchObj/VIP-Architechture/VIP-Architechture/Candy-module/views/CandyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "C993EE13-284C-46E5-87A6-74A07B275C56 - ecda4c9c90cb2e79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VIP_Architechture.CandyView.(priceLabel in _6D5D83AFB4D1695A0D0733C5FF869A76).setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "VIP-Architechture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/researchObj/VIP-Architechture/VIP-Architechture/Candy-module/views/CandyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "C993EE13-284C-46E5-87A6-74A07B275C56 - 350efd643bf23f61"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VIP_Architechture.CandyView.(priceLabel in _6D5D83AFB4D1695A0D0733C5FF869A76).modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "VIP-Architechture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/researchObj/VIP-Architechture/VIP-Architechture/Candy-module/views/CandyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "67">
+               </Location>
+               <Location
+                  uuid = "C993EE13-284C-46E5-87A6-74A07B275C56 - 27852153a625aea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VIP_Architechture.CandyView.(priceLabel in _6D5D83AFB4D1695A0D0733C5FF869A76).modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "VIP-Architechture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/researchObj/VIP-Architechture/VIP-Architechture/Candy-module/views/CandyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "C993EE13-284C-46E5-87A6-74A07B275C56 - 34a981f44566d4aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VIP_Architechture.CandyView.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; VIP_Architechture.CandyView"
+                  moduleName = "VIP-Architechture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/researchObj/VIP-Architechture/VIP-Architechture/Candy-module/views/CandyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "856">
+               </Location>
+               <Location
+                  uuid = "C993EE13-284C-46E5-87A6-74A07B275C56 - b29d945d8946b780"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VIP_Architechture.CandyView.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;VIP_Architechture.CandyView&gt;"
+                  moduleName = "VIP-Architechture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Desktop/researchObj/VIP-Architechture/VIP-Architechture/Candy-module/views/CandyView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "782">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8D1435C2-C541-43B9-8D7E-E6EED7A8A12A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VIP-Architechture/Candy-module/views/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
