@@ -9,12 +9,32 @@
 import UIKit
 
 protocol UserRouterProtocol {
-  
+  var viewController: UserViewController? { get }
+
+  func navigateToArtist(view:UIViewController,atIndexPath indexPath: IndexPath, animated: Bool)
+
 }
 
-class UserRouter: UserRouterProtocol {
+class UserRouter{
   
+  weak var viewController:UserViewController?
+  init(viewController:UserViewController) {
+    
+    self.viewController = viewController
+  }
   
+
+}
+extension UserRouter: UserRouterProtocol {
+  func navigateToArtist(view:UIViewController,atIndexPath indexPath: IndexPath, animated: Bool) {
+      
+    viewController?.navigationController?.pushViewController(view, animated: true)
+  }
+  
+
+
+
+
 }
 
 

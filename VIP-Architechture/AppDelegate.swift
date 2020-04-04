@@ -25,14 +25,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let userView = UserViewController(nibName: "UserViewController", bundle: nil)
     
     
-//    let candyView = CandyView(nibName: "CandyView", bundle: nil)
+    let candyView = CandyView(nibName: "CandyView", bundle: nil)
 
-    let navController = UINavigationController(rootViewController: userView)
+    let navController = UINavigationController(rootViewController: candyView)
 
            window?.rootViewController = navController
 
-    UserBuilder.buildModule(arroundView: userView)
-//           CandyBuilder.buildModule(arroundView: candyView)
+//    UserBuilder.buildModule(arroundView: userView)
+           CandyBuilder.buildModule(arroundView: candyView)
     // Override point for customization after application launch.
     return true
   }

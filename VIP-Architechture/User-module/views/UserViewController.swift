@@ -10,6 +10,7 @@ import UIKit
 import Alamofire
 protocol UserViewProtocol:class {
   var presenter: UserPresenterProtocol? { get set }
+//  var router:UserRouterProtocol?
   var interactor: UserInteractorProtocol? { get set }
   var wireframe: UserRouter? { get set }
   func set(viewModel: [UserEntity])
@@ -32,8 +33,6 @@ class UserViewController: UIViewController {
     }
 
 
-    
-
 }
 // MARK: - UITableViewDelegate
 
@@ -52,7 +51,7 @@ extension UserViewController:UITableViewDataSource{
     Alamofire.request(item.avatar_url).responseData { (response) in
       
       if response.error == nil{
-        if let data = response.data
+        if response.data != nil
         {
           DispatchQueue.main.async {
             cell.imageView?.image = UIImage(data: response.data!)
@@ -63,6 +62,10 @@ extension UserViewController:UITableViewDataSource{
     }
     
     return cell
+  }
+  
+  func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    wireframe?.navigateToArtist(view: CandyView(), atIndexPath: indexPath, animated: true)
   }
   
   

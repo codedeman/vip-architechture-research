@@ -11,6 +11,7 @@ import Foundation
 protocol UserPresenterProtocol:class {
   func interactor(_ interactor:UserInteractorProtocol,didFetch object:[UserEntity])
   func interactor(_ interactor: UserInteractorProtocol, didFailWith error: Error)
+  
 
 }
 
@@ -19,17 +20,15 @@ class UserPresenter {
     var interactor: UserInteractorProtocol?
 }
 
-struct UserViewModel {
-  var login:String!
-  var avatar_url:String!
-  var score:Double!
-}
+
 
 extension UserPresenter: UserPresenterProtocol {
  
   func interactor(_ interactor: UserInteractorProtocol, didFetch object: [UserEntity]) {
     
     view?.set(viewModel: object)
+    
+
 //    let userViewModel = UserViewModel(login: object.login, avatar_url: object.avatar_url, score: object.score)
 //    view?.set(viewModel: userViewModel)
     
