@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,14 @@
 		184934FD2435D90F0090453D /* CandyBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184934FC2435D90F0090453D /* CandyBuilder.swift */; };
 		1849350024363A8F0090453D /* CandyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 184934FE24363A8F0090453D /* CandyView.xib */; };
 		1849350124363A8F0090453D /* CandyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184934FF24363A8F0090453D /* CandyView.swift */; };
+		1849350524372EC50090453D /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849350424372EC50090453D /* UserEntity.swift */; };
+		1849350824372EF70090453D /* UserInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849350724372EF70090453D /* UserInteractor.swift */; };
+		1849350C243739270090453D /* UserApiWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849350B243739270090453D /* UserApiWorker.swift */; };
+		1849351024373A6D0090453D /* UserPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849350F24373A6C0090453D /* UserPresenter.swift */; };
+		1849351424373BCA0090453D /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849351224373BCA0090453D /* UserViewController.swift */; };
+		1849351524373BCA0090453D /* UserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1849351324373BCA0090453D /* UserViewController.xib */; };
+		1849351824373DA90090453D /* UserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849351724373DA90090453D /* UserRouter.swift */; };
+		1849351B24384F710090453D /* UserBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849351A24384F710090453D /* UserBuilder.swift */; };
 		185A4ACF24348ABA00981931 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185A4ACE24348ABA00981931 /* AppDelegate.swift */; };
 		185A4AD324348ABA00981931 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185A4AD224348ABA00981931 /* ViewController.swift */; };
 		185A4AD624348ABA00981931 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185A4AD424348ABA00981931 /* Main.storyboard */; };
@@ -22,6 +30,9 @@
 		185A4B0424348E2F00981931 /* CandyInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185A4B0324348E2F00981931 /* CandyInteractor.swift */; };
 		185A4B0724348EFE00981931 /* CandyApiWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185A4B0624348EFE00981931 /* CandyApiWorker.swift */; };
 		185A4B0A2434924700981931 /* CandyPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185A4B092434924700981931 /* CandyPresenterProtocol.swift */; };
+		51FFE550F7233D6257BE0770 /* Pods_VIP_ArchitechtureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE0B6B2495846C3A814BAFB2 /* Pods_VIP_ArchitechtureTests.framework */; };
+		70437E95A8302D9D0749E2A5 /* Pods_VIP_Architechture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4022851251E61DE73BD7960B /* Pods_VIP_Architechture.framework */; };
+		E6B077D913E5416C66A6910D /* Pods_VIP_Architechture_VIP_ArchitechtureUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACC208CB71C333C9A2C212B /* Pods_VIP_Architechture_VIP_ArchitechtureUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +57,14 @@
 		184934FC2435D90F0090453D /* CandyBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyBuilder.swift; sourceTree = "<group>"; };
 		184934FE24363A8F0090453D /* CandyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CandyView.xib; sourceTree = "<group>"; };
 		184934FF24363A8F0090453D /* CandyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandyView.swift; sourceTree = "<group>"; };
+		1849350424372EC50090453D /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
+		1849350724372EF70090453D /* UserInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInteractor.swift; sourceTree = "<group>"; };
+		1849350B243739270090453D /* UserApiWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApiWorker.swift; sourceTree = "<group>"; };
+		1849350F24373A6C0090453D /* UserPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPresenter.swift; sourceTree = "<group>"; };
+		1849351224373BCA0090453D /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		1849351324373BCA0090453D /* UserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserViewController.xib; sourceTree = "<group>"; };
+		1849351724373DA90090453D /* UserRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRouter.swift; sourceTree = "<group>"; };
+		1849351A24384F710090453D /* UserBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBuilder.swift; sourceTree = "<group>"; };
 		185A4ACB24348ABA00981931 /* VIP-Architechture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VIP-Architechture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		185A4ACE24348ABA00981931 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		185A4AD224348ABA00981931 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +82,15 @@
 		185A4B0324348E2F00981931 /* CandyInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyInteractor.swift; sourceTree = "<group>"; };
 		185A4B0624348EFE00981931 /* CandyApiWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyApiWorker.swift; sourceTree = "<group>"; };
 		185A4B092434924700981931 /* CandyPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandyPresenterProtocol.swift; sourceTree = "<group>"; };
+		2ACC208CB71C333C9A2C212B /* Pods_VIP_Architechture_VIP_ArchitechtureUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIP_Architechture_VIP_ArchitechtureUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3218E7C44C50EF21C5985F4E /* Pods-VIP-ArchitechtureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIP-ArchitechtureTests.debug.xcconfig"; path = "Target Support Files/Pods-VIP-ArchitechtureTests/Pods-VIP-ArchitechtureTests.debug.xcconfig"; sourceTree = "<group>"; };
+		398791EC6888774CF9D9CC4A /* Pods-VIP-Architechture-VIP-ArchitechtureUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIP-Architechture-VIP-ArchitechtureUITests.release.xcconfig"; path = "Target Support Files/Pods-VIP-Architechture-VIP-ArchitechtureUITests/Pods-VIP-Architechture-VIP-ArchitechtureUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3F381EC693694679A787E692 /* Pods-VIP-ArchitechtureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIP-ArchitechtureTests.release.xcconfig"; path = "Target Support Files/Pods-VIP-ArchitechtureTests/Pods-VIP-ArchitechtureTests.release.xcconfig"; sourceTree = "<group>"; };
+		4022851251E61DE73BD7960B /* Pods_VIP_Architechture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIP_Architechture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED06324D33FFCB11AAD43B5 /* Pods-VIP-Architechture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIP-Architechture.release.xcconfig"; path = "Target Support Files/Pods-VIP-Architechture/Pods-VIP-Architechture.release.xcconfig"; sourceTree = "<group>"; };
+		AAA9BE355665060DFA59FDCD /* Pods-VIP-Architechture-VIP-ArchitechtureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIP-Architechture-VIP-ArchitechtureUITests.debug.xcconfig"; path = "Target Support Files/Pods-VIP-Architechture-VIP-ArchitechtureUITests/Pods-VIP-Architechture-VIP-ArchitechtureUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B13CAF9374DD9523C735BAC3 /* Pods-VIP-Architechture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIP-Architechture.debug.xcconfig"; path = "Target Support Files/Pods-VIP-Architechture/Pods-VIP-Architechture.debug.xcconfig"; sourceTree = "<group>"; };
+		BE0B6B2495846C3A814BAFB2 /* Pods_VIP_ArchitechtureTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIP_ArchitechtureTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70437E95A8302D9D0749E2A5 /* Pods_VIP_Architechture.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51FFE550F7233D6257BE0770 /* Pods_VIP_ArchitechtureTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6B077D913E5416C66A6910D /* Pods_VIP_Architechture_VIP_ArchitechtureUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +147,77 @@
 			path = builder;
 			sourceTree = "<group>";
 		};
+		1849350224372B1C0090453D /* User-module */ = {
+			isa = PBXGroup;
+			children = (
+				1849351924384F480090453D /* builders */,
+				1849351624373D8D0090453D /* routers */,
+				1849351124373BA00090453D /* views */,
+				1849350D24373A430090453D /* presenters */,
+				1849350A2437390B0090453D /* workers */,
+				1849350624372ED40090453D /* interactors */,
+				1849350324372E710090453D /* entity */,
+			);
+			path = "User-module";
+			sourceTree = "<group>";
+		};
+		1849350324372E710090453D /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				1849350424372EC50090453D /* UserEntity.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		1849350624372ED40090453D /* interactors */ = {
+			isa = PBXGroup;
+			children = (
+				1849350724372EF70090453D /* UserInteractor.swift */,
+			);
+			path = interactors;
+			sourceTree = "<group>";
+		};
+		1849350A2437390B0090453D /* workers */ = {
+			isa = PBXGroup;
+			children = (
+				1849350B243739270090453D /* UserApiWorker.swift */,
+			);
+			path = workers;
+			sourceTree = "<group>";
+		};
+		1849350D24373A430090453D /* presenters */ = {
+			isa = PBXGroup;
+			children = (
+				1849350F24373A6C0090453D /* UserPresenter.swift */,
+			);
+			path = presenters;
+			sourceTree = "<group>";
+		};
+		1849351124373BA00090453D /* views */ = {
+			isa = PBXGroup;
+			children = (
+				1849351224373BCA0090453D /* UserViewController.swift */,
+				1849351324373BCA0090453D /* UserViewController.xib */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		1849351624373D8D0090453D /* routers */ = {
+			isa = PBXGroup;
+			children = (
+				1849351724373DA90090453D /* UserRouter.swift */,
+			);
+			path = routers;
+			sourceTree = "<group>";
+		};
+		1849351924384F480090453D /* builders */ = {
+			isa = PBXGroup;
+			children = (
+				1849351A24384F710090453D /* UserBuilder.swift */,
+			);
+			path = builders;
+			sourceTree = "<group>";
+		};
 		185A4AC224348ABA00981931 = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +225,8 @@
 				185A4AE424348AC100981931 /* VIP-ArchitechtureTests */,
 				185A4AEF24348AC200981931 /* VIP-ArchitechtureUITests */,
 				185A4ACC24348ABA00981931 /* Products */,
+				C049CE63022D09A75A630418 /* Pods */,
+				8438136E9DB866CAEE280260 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +243,7 @@
 		185A4ACD24348ABA00981931 /* VIP-Architechture */ = {
 			isa = PBXGroup;
 			children = (
+				1849350224372B1C0090453D /* User-module */,
 				185A4AFE24348C5300981931 /* Candy-module */,
 				185A4ACE24348ABA00981931 /* AppDelegate.swift */,
 				185A4AD424348ABA00981931 /* Main.storyboard */,
@@ -213,6 +318,29 @@
 			path = presenters;
 			sourceTree = "<group>";
 		};
+		8438136E9DB866CAEE280260 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4022851251E61DE73BD7960B /* Pods_VIP_Architechture.framework */,
+				2ACC208CB71C333C9A2C212B /* Pods_VIP_Architechture_VIP_ArchitechtureUITests.framework */,
+				BE0B6B2495846C3A814BAFB2 /* Pods_VIP_ArchitechtureTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C049CE63022D09A75A630418 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B13CAF9374DD9523C735BAC3 /* Pods-VIP-Architechture.debug.xcconfig */,
+				8ED06324D33FFCB11AAD43B5 /* Pods-VIP-Architechture.release.xcconfig */,
+				AAA9BE355665060DFA59FDCD /* Pods-VIP-Architechture-VIP-ArchitechtureUITests.debug.xcconfig */,
+				398791EC6888774CF9D9CC4A /* Pods-VIP-Architechture-VIP-ArchitechtureUITests.release.xcconfig */,
+				3218E7C44C50EF21C5985F4E /* Pods-VIP-ArchitechtureTests.debug.xcconfig */,
+				3F381EC693694679A787E692 /* Pods-VIP-ArchitechtureTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -220,9 +348,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 185A4AF524348AC200981931 /* Build configuration list for PBXNativeTarget "VIP-Architechture" */;
 			buildPhases = (
+				25FFD0231F50BB20BC194C7C /* [CP] Check Pods Manifest.lock */,
 				185A4AC724348ABA00981931 /* Sources */,
 				185A4AC824348ABA00981931 /* Frameworks */,
 				185A4AC924348ABA00981931 /* Resources */,
+				F8EE1CE2CDDF26A21536BD5A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -237,6 +367,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 185A4AF824348AC200981931 /* Build configuration list for PBXNativeTarget "VIP-ArchitechtureTests" */;
 			buildPhases = (
+				7A11B252E0718101C6FBD940 /* [CP] Check Pods Manifest.lock */,
 				185A4ADD24348AC100981931 /* Sources */,
 				185A4ADE24348AC100981931 /* Frameworks */,
 				185A4ADF24348AC100981931 /* Resources */,
@@ -255,9 +386,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 185A4AFB24348AC200981931 /* Build configuration list for PBXNativeTarget "VIP-ArchitechtureUITests" */;
 			buildPhases = (
+				6A58B8EB477BA772ACA20DC6 /* [CP] Check Pods Manifest.lock */,
 				185A4AE824348AC100981931 /* Sources */,
 				185A4AE924348AC100981931 /* Frameworks */,
 				185A4AEA24348AC100981931 /* Resources */,
+				30AA615A875E5CF37C9F30C6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -318,6 +451,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1849350024363A8F0090453D /* CandyView.xib in Resources */,
+				1849351524373BCA0090453D /* UserViewController.xib in Resources */,
 				185A4ADB24348AC100981931 /* LaunchScreen.storyboard in Resources */,
 				185A4AD824348AC100981931 /* Assets.xcassets in Resources */,
 				185A4AD624348ABA00981931 /* Main.storyboard in Resources */,
@@ -340,6 +474,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		25FFD0231F50BB20BC194C7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VIP-Architechture-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30AA615A875E5CF37C9F30C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VIP-Architechture-VIP-ArchitechtureUITests/Pods-VIP-Architechture-VIP-ArchitechtureUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VIP-Architechture-VIP-ArchitechtureUITests/Pods-VIP-Architechture-VIP-ArchitechtureUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VIP-Architechture-VIP-ArchitechtureUITests/Pods-VIP-Architechture-VIP-ArchitechtureUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A58B8EB477BA772ACA20DC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VIP-Architechture-VIP-ArchitechtureUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A11B252E0718101C6FBD940 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VIP-ArchitechtureTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8EE1CE2CDDF26A21536BD5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VIP-Architechture/Pods-VIP-Architechture-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VIP-Architechture/Pods-VIP-Architechture-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VIP-Architechture/Pods-VIP-Architechture-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		185A4AC724348ABA00981931 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -347,11 +584,18 @@
 			files = (
 				185A4B0124348C9900981931 /* CandyEntity.swift in Sources */,
 				185A4AD324348ABA00981931 /* ViewController.swift in Sources */,
+				1849351B24384F710090453D /* UserBuilder.swift in Sources */,
+				1849350824372EF70090453D /* UserInteractor.swift in Sources */,
 				185A4B0A2434924700981931 /* CandyPresenterProtocol.swift in Sources */,
+				1849351824373DA90090453D /* UserRouter.swift in Sources */,
+				1849350524372EC50090453D /* UserEntity.swift in Sources */,
 				185A4B0724348EFE00981931 /* CandyApiWorker.swift in Sources */,
 				185A4B0424348E2F00981931 /* CandyInteractor.swift in Sources */,
+				1849351424373BCA0090453D /* UserViewController.swift in Sources */,
 				185A4ACF24348ABA00981931 /* AppDelegate.swift in Sources */,
 				1849350124363A8F0090453D /* CandyView.swift in Sources */,
+				1849350C243739270090453D /* UserApiWorker.swift in Sources */,
+				1849351024373A6D0090453D /* UserPresenter.swift in Sources */,
 				184934FA2435D6CB0090453D /* CandyRouter.swift in Sources */,
 				184934FD2435D90F0090453D /* CandyBuilder.swift in Sources */,
 			);
@@ -524,6 +768,7 @@
 		};
 		185A4AF624348AC200981931 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B13CAF9374DD9523C735BAC3 /* Pods-VIP-Architechture.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -542,6 +787,7 @@
 		};
 		185A4AF724348AC200981931 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ED06324D33FFCB11AAD43B5 /* Pods-VIP-Architechture.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -560,6 +806,7 @@
 		};
 		185A4AF924348AC200981931 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3218E7C44C50EF21C5985F4E /* Pods-VIP-ArchitechtureTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -582,6 +829,7 @@
 		};
 		185A4AFA24348AC200981931 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F381EC693694679A787E692 /* Pods-VIP-ArchitechtureTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -604,6 +852,7 @@
 		};
 		185A4AFC24348AC200981931 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAA9BE355665060DFA59FDCD /* Pods-VIP-Architechture-VIP-ArchitechtureUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -624,6 +873,7 @@
 		};
 		185A4AFD24348AC200981931 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 398791EC6888774CF9D9CC4A /* Pods-VIP-Architechture-VIP-ArchitechtureUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

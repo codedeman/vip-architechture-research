@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+//import Firebase
 @available(iOS 13.0, *)
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,16 +17,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     
+//      FirebaseApp.configure()
+
+//    Analytics.logEvent(, parameters: <#T##[String : Any]?#>)
       window = UIWindow(frame: UIScreen.main.bounds)
            window?.makeKeyAndVisible()
+    let userView = UserViewController(nibName: "UserViewController", bundle: nil)
     
-    let candyView = CandyView(nibName: "CandyView", bundle: nil)
+    
+//    let candyView = CandyView(nibName: "CandyView", bundle: nil)
 
-    let navController = UINavigationController(rootViewController: candyView)
+    let navController = UINavigationController(rootViewController: userView)
 
            window?.rootViewController = navController
 
-           CandyBuilder.buildModule(arroundView: candyView)
+    UserBuilder.buildModule(arroundView: userView)
+//           CandyBuilder.buildModule(arroundView: candyView)
     // Override point for customization after application launch.
     return true
   }
