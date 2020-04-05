@@ -11,6 +11,7 @@ import Foundation
 
 class UserBuilder {
   
+   static let sharedInstance = UserBuilder()
   class func  buildModule(arroundView view:UserViewProtocol) {
     
     let presenter = UserPresenter()

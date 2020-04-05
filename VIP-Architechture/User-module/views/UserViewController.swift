@@ -65,7 +65,10 @@ extension UserViewController:UITableViewDataSource{
   }
   
   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-    wireframe?.navigateToArtist(view: CandyView(), atIndexPath: indexPath, animated: true)
+    let candyView = CandyView(nibName: "CandyView", bundle: nil)
+      CandyBuilder.buildModule(arroundView: candyView)
+
+    wireframe?.navigateToArtist(view: candyView, atIndexPath: indexPath, animated: true)
   }
   
   

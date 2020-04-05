@@ -24,13 +24,10 @@ class UserPresenter {
 
 extension UserPresenter: UserPresenterProtocol {
  
+  
   func interactor(_ interactor: UserInteractorProtocol, didFetch object: [UserEntity]) {
     
     view?.set(viewModel: object)
-    
-
-//    let userViewModel = UserViewModel(login: object.login, avatar_url: object.avatar_url, score: object.score)
-//    view?.set(viewModel: userViewModel)
     
   }
   

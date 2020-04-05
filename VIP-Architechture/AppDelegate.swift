@@ -27,12 +27,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     let candyView = CandyView(nibName: "CandyView", bundle: nil)
 
-    let navController = UINavigationController(rootViewController: candyView)
+    let navController = UINavigationController(rootViewController: userView)
 
            window?.rootViewController = navController
 
-//    UserBuilder.buildModule(arroundView: userView)
-           CandyBuilder.buildModule(arroundView: candyView)
+    UserBuilder.buildModule(arroundView: userView)
+//           CandyBuilder.buildModule(arroundView: candyView)
     // Override point for customization after application launch.
     return true
   }
