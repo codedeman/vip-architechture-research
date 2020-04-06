@@ -10,13 +10,27 @@ import UIKit
 import Alamofire
 protocol UserViewProtocol:class {
   var presenter: UserPresenterProtocol? { get set }
-//  var router:UserRouterProtocol?
   var interactor: UserInteractorProtocol? { get set }
   var wireframe: UserRouter? { get set }
   func set(viewModel: [UserEntity])
 
-  
 }
+
+extension UserViewController:UserViewProtocol{
+  func set(viewModel: [UserEntity]) {
+    
+    DispatchQueue.main.async {
+      self.userEntity = viewModel
+      self.userTableView.reloadData()
+      
+    }
+  }
+  
+
+}
+
+
+
 class UserViewController: UIViewController {
 
   var presenter:UserPresenterProtocol?
@@ -26,7 +40,7 @@ class UserViewController: UIViewController {
   @IBOutlet weak var userTableView: UITableView!
   override func viewDidLoad() {
         super.viewDidLoad()
-    interactor?.fetchUser(username: "kevin")
+    interactor?.fetchUser("kevin")
     userTableView.delegate = self 
     userTableView.dataSource = self
     userTableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
@@ -64,6 +78,7 @@ extension UserViewController:UITableViewDataSource{
     return cell
   }
   
+  
   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     let candyView = CandyView(nibName: "CandyView", bundle: nil)
       CandyBuilder.buildModule(arroundView: candyView)
@@ -82,15 +97,4 @@ extension UserViewController:UITableViewDelegate{
 // MARK: -Extending UserViewController
 
 
-extension UserViewController:UserViewProtocol{
-  func set(viewModel: [UserEntity]) {
-    
-    DispatchQueue.main.async {
-      self.userEntity = viewModel
-      self.userTableView.reloadData()
-      
-    }
-  }
-  
 
-}

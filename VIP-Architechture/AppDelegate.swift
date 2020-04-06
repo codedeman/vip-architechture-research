@@ -23,15 +23,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
       window = UIWindow(frame: UIScreen.main.bounds)
            window?.makeKeyAndVisible()
     let userView = UserViewController(nibName: "UserViewController", bundle: nil)
-    
+    let userGitHubView = UserGitHubView(nibName: "UserGitHubView", bundle: nil)
     
     let candyView = CandyView(nibName: "CandyView", bundle: nil)
 
-    let navController = UINavigationController(rootViewController: userView)
+    let navController = UINavigationController(rootViewController: userGitHubView)
 
            window?.rootViewController = navController
-
-    UserBuilder.buildModule(arroundView: userView)
+    UserGitHubRouter.createdUserListModule(arroundView: userGitHubView)
+//    UserBuilder.buildModule(arroundView: userView)
 //           CandyBuilder.buildModule(arroundView: candyView)
     // Override point for customization after application launch.
     return true

@@ -11,8 +11,6 @@ import Foundation
 protocol UserPresenterProtocol:class {
   func interactor(_ interactor:UserInteractorProtocol,didFetch object:[UserEntity])
   func interactor(_ interactor: UserInteractorProtocol, didFailWith error: Error)
-  
-
 }
 
 class UserPresenter {

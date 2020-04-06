@@ -19,6 +19,11 @@
 		1849351524373BCA0090453D /* UserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1849351324373BCA0090453D /* UserViewController.xib */; };
 		1849351824373DA90090453D /* UserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849351724373DA90090453D /* UserRouter.swift */; };
 		1849351B24384F710090453D /* UserBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849351A24384F710090453D /* UserBuilder.swift */; };
+		18493542243AC02F0090453D /* GitHubUserInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18493541243AC02E0090453D /* GitHubUserInteractor.swift */; };
+		18493545243AD0D00090453D /* UserGitHubRouters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18493544243AD0CF0090453D /* UserGitHubRouters.swift */; };
+		18493549243AD2EE0090453D /* UserGitHubWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18493548243AD2EE0090453D /* UserGitHubWorker.swift */; };
+		1849354D243AE8D00090453D /* UserGitHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849354B243AE8CD0090453D /* UserGitHubView.swift */; };
+		1849354E243AE8D00090453D /* UserGitHubView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1849354C243AE8CD0090453D /* UserGitHubView.xib */; };
 		185A4ACF24348ABA00981931 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185A4ACE24348ABA00981931 /* AppDelegate.swift */; };
 		185A4AD324348ABA00981931 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185A4AD224348ABA00981931 /* ViewController.swift */; };
 		185A4AD624348ABA00981931 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185A4AD424348ABA00981931 /* Main.storyboard */; };
@@ -65,6 +70,11 @@
 		1849351324373BCA0090453D /* UserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserViewController.xib; sourceTree = "<group>"; };
 		1849351724373DA90090453D /* UserRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRouter.swift; sourceTree = "<group>"; };
 		1849351A24384F710090453D /* UserBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBuilder.swift; sourceTree = "<group>"; };
+		18493541243AC02E0090453D /* GitHubUserInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubUserInteractor.swift; sourceTree = "<group>"; };
+		18493544243AD0CF0090453D /* UserGitHubRouters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGitHubRouters.swift; sourceTree = "<group>"; };
+		18493548243AD2EE0090453D /* UserGitHubWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGitHubWorker.swift; sourceTree = "<group>"; };
+		1849354B243AE8CD0090453D /* UserGitHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGitHubView.swift; sourceTree = "<group>"; };
+		1849354C243AE8CD0090453D /* UserGitHubView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserGitHubView.xib; sourceTree = "<group>"; };
 		185A4ACB24348ABA00981931 /* VIP-Architechture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VIP-Architechture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		185A4ACE24348ABA00981931 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		185A4AD224348ABA00981931 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -218,6 +228,50 @@
 			path = builders;
 			sourceTree = "<group>";
 		};
+		18493540243ABE620090453D /* VN-module */ = {
+			isa = PBXGroup;
+			children = (
+				1849354A243AE87B0090453D /* views */,
+				18493547243AD2D00090453D /* workers */,
+				18493546243AD22D0090453D /* interactors */,
+				18493543243AD0990090453D /* routers  */,
+			);
+			path = "VN-module";
+			sourceTree = "<group>";
+		};
+		18493543243AD0990090453D /* routers  */ = {
+			isa = PBXGroup;
+			children = (
+				18493544243AD0CF0090453D /* UserGitHubRouters.swift */,
+			);
+			path = "routers ";
+			sourceTree = "<group>";
+		};
+		18493546243AD22D0090453D /* interactors */ = {
+			isa = PBXGroup;
+			children = (
+				18493541243AC02E0090453D /* GitHubUserInteractor.swift */,
+			);
+			path = interactors;
+			sourceTree = "<group>";
+		};
+		18493547243AD2D00090453D /* workers */ = {
+			isa = PBXGroup;
+			children = (
+				18493548243AD2EE0090453D /* UserGitHubWorker.swift */,
+			);
+			path = workers;
+			sourceTree = "<group>";
+		};
+		1849354A243AE87B0090453D /* views */ = {
+			isa = PBXGroup;
+			children = (
+				1849354B243AE8CD0090453D /* UserGitHubView.swift */,
+				1849354C243AE8CD0090453D /* UserGitHubView.xib */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
 		185A4AC224348ABA00981931 = {
 			isa = PBXGroup;
 			children = (
@@ -243,6 +297,7 @@
 		185A4ACD24348ABA00981931 /* VIP-Architechture */ = {
 			isa = PBXGroup;
 			children = (
+				18493540243ABE620090453D /* VN-module */,
 				1849350224372B1C0090453D /* User-module */,
 				185A4AFE24348C5300981931 /* Candy-module */,
 				185A4ACE24348ABA00981931 /* AppDelegate.swift */,
@@ -454,6 +509,7 @@
 				1849351524373BCA0090453D /* UserViewController.xib in Resources */,
 				185A4ADB24348AC100981931 /* LaunchScreen.storyboard in Resources */,
 				185A4AD824348AC100981931 /* Assets.xcassets in Resources */,
+				1849354E243AE8D00090453D /* UserGitHubView.xib in Resources */,
 				185A4AD624348ABA00981931 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -582,6 +638,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18493545243AD0D00090453D /* UserGitHubRouters.swift in Sources */,
 				185A4B0124348C9900981931 /* CandyEntity.swift in Sources */,
 				185A4AD324348ABA00981931 /* ViewController.swift in Sources */,
 				1849351B24384F710090453D /* UserBuilder.swift in Sources */,
@@ -589,10 +646,13 @@
 				185A4B0A2434924700981931 /* CandyPresenterProtocol.swift in Sources */,
 				1849351824373DA90090453D /* UserRouter.swift in Sources */,
 				1849350524372EC50090453D /* UserEntity.swift in Sources */,
+				18493549243AD2EE0090453D /* UserGitHubWorker.swift in Sources */,
 				185A4B0724348EFE00981931 /* CandyApiWorker.swift in Sources */,
 				185A4B0424348E2F00981931 /* CandyInteractor.swift in Sources */,
 				1849351424373BCA0090453D /* UserViewController.swift in Sources */,
+				1849354D243AE8D00090453D /* UserGitHubView.swift in Sources */,
 				185A4ACF24348ABA00981931 /* AppDelegate.swift in Sources */,
+				18493542243AC02F0090453D /* GitHubUserInteractor.swift in Sources */,
 				1849350124363A8F0090453D /* CandyView.swift in Sources */,
 				1849350C243739270090453D /* UserApiWorker.swift in Sources */,
 				1849351024373A6D0090453D /* UserPresenter.swift in Sources */,

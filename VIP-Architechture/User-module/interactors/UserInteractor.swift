@@ -8,13 +8,12 @@
 
 import Foundation
 import Alamofire
-import ObjectMapper
 
 let ApiBaseURl = "https://api.github.com/search/users?q="
 
 protocol UserInteractorProtocol {
   
-  func fetchUser(username:String)
+  func fetchUser(_ username:String)
 }
 
 class UserInteractor: UserInteractorProtocol {
@@ -27,7 +26,7 @@ class UserInteractor: UserInteractorProtocol {
   }
   
 
-  func fetchUser(username: String) {
+  func fetchUser(_ username: String) {
     apiWorker?.fetchUser(username: username, callBack: { (userEnity) in
       self.presenter?.interactor(self, didFetch: userEnity!.items)
     })
